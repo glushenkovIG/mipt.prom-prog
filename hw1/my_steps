@@ -1,0 +1,5 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data "@postData.json" http://api.github.com/repos/glushenkovig/mipt.prom-prog/pulls
+
+
